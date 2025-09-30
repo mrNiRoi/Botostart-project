@@ -2,6 +2,7 @@
   margin: 0px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 
 h1 {
@@ -33,5 +35,32 @@ a {
 .logo_img {
   height: 40px;
   border-radius: 50%;
+  padding: 5px;
+}
+
+body {
+  background-color: rgb(243, 241, 239);
+}
+
+.main {
+  display: flex;
+  margin: 10px;
+}
+
+aside {
+  width: 25%;
+  margin-right: 25px;
+}
+
+main {
+  width: 75%;
+}
+
+aside,
+main {
+  background-color: rgb(188, 202, 205);
+  height: 600px;
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
   padding: 5px;
 }
