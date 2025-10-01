@@ -64,3 +64,27 @@ main {
   border-radius: 10px;
   padding: 5px;
 }
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.child {
+  background-color: rgb(188, 202, 205);
+  box-shadow: 0 4px 4px 0 rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.child_img {
+  height: 70%;
+  width: 100%;
+}
+
+.child p {
+  padding: 5px;
+  color: black;
+}
+
+
