@@ -105,4 +105,17 @@ main {
   .logo_img {
     display: none;
   }
+  .main {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  aside {
+  width: 100%;
+  height: 250px;
+  }
+  main {
+  width: 100%;
+  height: 500px;
+  }
+  
 }
