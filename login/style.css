@@ -1,4 +1,94 @@
 * {
-    margin: 0px;
+  box-sizing: border-box;
+  margin: 0px;
 }
 
+i {
+  height: 35px;
+  margin: 0px 10px -3px 25px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #eae4d5;
+}
+
+.login_card {
+  width: 430px;
+  height: 700px;
+  background-color: #f2f2f2;
+  padding: 60px 35px 35px 35px;
+  border-radius: 40px;
+  box-shadow: 13px 13px 20px #b6b09f, -13px -13px 20px #b6b09f;
+}
+
+.logo {
+  background: url("../media/smal-logo.jpg");
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #000000, 0px 0px 0px 5px #b6b09f, 8px 8px 15px #000000,
+    -8px -8px 15px #787469;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 35px;
+}
+
+.fields {
+  width: 100%;
+  padding: 60px 5px 5px 5px;
+}
+
+.fields input {
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding: 20px 10px 20px 5px;
+  outline: none;
+}
+
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px #b6b09f, -8px -8px 8px #c6c1b4;
+}
+
+.login_button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  background: #b6b09f;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 4px 4px 8px #b6b09f, -3px -3px 8px #c6c1b4;
+}
+
+.login_button:hover {
+  background: #000000;
+  color: #fff7dd;
+}
+
+.user_links {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.user_links a {
+    text-decoration: none;
+    color: #787469;
+    font-size: 15px;
+}
